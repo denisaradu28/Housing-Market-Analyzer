@@ -95,3 +95,34 @@ cd bucharest-house-price-prediction
 
 2. Install the dependencies:
 ```bash
+pip install -r requirements.txt
+```
+
+3. Run Jupyter Notebook:
+```bash
+jupyter notebook
+```
+
+4. Open and run:
+```bash
+analysis.ipynb
+```
+
+---
+
+## Project Structure
+```bash
+bucharest-house-price-prediction/
+│
+├── data/
+│   └── Bucharest_HousePriceDataset.csv
+│
+├── notebook/
+│   └── bucharest_house_price_prediction.ipynb
+│
+├── README.md
+└── requirements.txt
+```
+
+## Example Prediction
+Predicted price: ~120000
